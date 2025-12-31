@@ -46,7 +46,7 @@ GitHub Repository:
 https://github.com/FazalMamoon/smart-code-reviewer
 
 Live Demo (Streamlit Cloud):
-https://fazalmamoon-smart-code-reviewer.streamlit.app
+https://smart-code-reviewer-rxfkutkokxvrfm6zyw2zcp.streamlit.app/
 
 Dataset: Not applicable (user-provided code snippets)
 
