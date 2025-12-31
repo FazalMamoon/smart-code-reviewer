@@ -1,0 +1,113 @@
+================================================================================
+                    AI CHALLENGE SUBMISSION: SMART CODE REVIEWER
+================================================================================
+
+Challenge Selected: #1 - Smart Code Reviewer
+Submitted by: Fazal Rehman
+Date: December 31, 2025
+
+--------------------------------------------------------------------------------
+                              100-WORD SUMMARY
+--------------------------------------------------------------------------------
+
+Smart Code Reviewer is an AI-powered assistant that provides instant, structured 
+code reviews before human review. Built with Streamlit and Google Gemini AI, it 
+analyzes code snippets and delivers: readability/maintainability/best-practices 
+scores (1-10), one positive reinforcement, three specific improvements with 
+corrected code, and a pro tip. The tool supports multiple programming languages 
+and adjusts feedback based on developer experience level. Users can customize 
+review focus areas (security, performance, testing). This reduces review 
+bottlenecks, catches issues early, and helps junior developers learn faster. 
+The structured output ensures consistent, actionable feedback every time.
+
+--------------------------------------------------------------------------------
+                              APPROACH & TOOLS
+--------------------------------------------------------------------------------
+
+Tools Used:
+- Streamlit (Python web framework for rapid prototyping)
+- Google Gemini AI (free-tier LLM for code analysis)
+- Python 3.x
+
+Approach:
+1. Created a clean, two-column UI: code input on left, results on right
+2. Designed structured JSON prompt to ensure consistent AI output format
+3. Added customization options (language, focus areas, developer level)
+4. Implemented scoring system (1-10) for quick assessment
+5. Built demo mode for testing without API dependency
+
+Time Spent: ~45 minutes
+
+--------------------------------------------------------------------------------
+                              PUBLIC LINKS
+--------------------------------------------------------------------------------
+
+GitHub Repository:
+https://github.com/FazalMamoon/smart-code-reviewer
+
+Live Demo (Streamlit Cloud):
+https://fazalmamoon-smart-code-reviewer.streamlit.app
+
+Dataset: Not applicable (user-provided code snippets)
+
+--------------------------------------------------------------------------------
+                              KEY FEATURES
+--------------------------------------------------------------------------------
+
+1. INSTANT SCORING
+   - Readability (1-10)
+   - Maintainability (1-10)
+   - Best Practices (1-10)
+
+2. STRUCTURED FEEDBACK
+   - One positive note (encouragement)
+   - Three specific improvements with code fixes
+   - One actionable pro tip
+
+3. CUSTOMIZATION
+   - Multiple programming languages supported
+   - Adjustable review focus (security, performance, testing)
+   - Developer experience level consideration
+
+4. USER-FRIENDLY
+   - Clean, modern UI
+   - No setup required
+   - Demo mode for instant preview
+
+--------------------------------------------------------------------------------
+                              SCREENSHOT
+--------------------------------------------------------------------------------
+
+[ATTACH YOUR SCREENSHOT HERE - showing the app with review results]
+
+The screenshot demonstrates:
+- Left panel: Sample Python code with nested conditionals
+- Right panel: AI-generated review with scores, improvements, and pro tip
+- Sidebar: Settings for language, focus areas, and developer level
+
+--------------------------------------------------------------------------------
+                              SOURCE CODE
+--------------------------------------------------------------------------------
+
+Main application file (app.py) - 280 lines
+Dependencies: streamlit, google-generativeai
+
+Core prompt engineering approach:
+- Structured JSON output format for consistent parsing
+- Context-aware prompts (language, experience level, focus areas)
+- Fallback to demo mode if API unavailable
+
+--------------------------------------------------------------------------------
+                              FUTURE IMPROVEMENTS
+--------------------------------------------------------------------------------
+
+With more time, I would add:
+1. GitHub integration for direct PR reviews
+2. Code diff highlighting
+3. Historical review tracking
+4. Team collaboration features
+5. CI/CD pipeline integration
+
+================================================================================
+                              END OF SUBMISSION
+================================================================================
